@@ -10,6 +10,6 @@ int main(){
 		double y=4.9*t*t;
 		y/=5.0;
 		int ans=(y-(int)y==0.0)?y:(int)y+1;
-		cout<<ans<<endl;
+		cout<<ans+1<<endl;
 	}
 }
